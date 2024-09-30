@@ -100,7 +100,7 @@
         + If the file present in DB for this `parentId` is not of type `folder`, return an error `Parent is not a folder` with a status code 400. 
       + The user ID should be added to the document saved in DB - as owner of a file .
       + If the type is `folder`, add the new file document in the DB and return the new file with a status code 201.
-      + Otherwise: 
+      + Otherwise:  
         + All file will be stored locally in a folder (to create automatically if not present):
           + The relative path of this folder is given by the environment variable `FOLDER_PATH`. 
           + If this variable is not present or empty, use `/tmp/files_manager` as storing folder path.
