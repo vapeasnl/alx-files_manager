@@ -104,7 +104,7 @@
         + All file will be stored locally in a folder (to create automatically if not present):
           + The relative path of this folder is given by the environment variable `FOLDER_PATH`. 
           + If this variable is not present or empty, use `/tmp/files_manager` as storing folder path.
-        + Create a local path in the storing folder with filename a UUID.
+        + Create a local path in the storing folder with filename a UUID. 
         + Store the file in clear (reminder: `data` contains the Base64 of the file) in this local path.
         + Add the new file document in the collection `files` with these attributes:
           + `userId`: ID of the owner document (owner from the authentication).
