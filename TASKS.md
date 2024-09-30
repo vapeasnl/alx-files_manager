@@ -97,7 +97,7 @@
       + If the `data` is missing and `type != folder`, return an error `Missing data` with a status code 400.
       + If the `parentId` is set:
         + If no file is present in DB for this `parentId`, return an error `Parent not found` with a status code 400.
-        + If the file present in DB for this `parentId` is not of type `folder`, return an error `Parent is not a folder` with a status code 400.
+        + If the file present in DB for this `parentId` is not of type `folder`, return an error `Parent is not a folder` with a status code 400. 
       + The user ID should be added to the document saved in DB - as owner of a file.
       + If the type is `folder`, add the new file document in the DB and return the new file with a status code 201.
       + Otherwise:
