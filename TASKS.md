@@ -110,7 +110,7 @@
           + `userId`: ID of the owner document (owner from the authentication).
           + `name`: same as the value received. 
           + `type`: same as the value received.
-          + `isPublic`: same as the value received.
+          + `isPublic`: same as the value received. 
           + `parentId`: same as the value received - if not present: 0.
           + `localPath`: for a `type=file|image`, the absolute path to the file save in local.
         + Return the new file with a status code 201.  
