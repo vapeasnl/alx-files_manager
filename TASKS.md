@@ -201,7 +201,7 @@
     + `GET /files` (don't forget the pagination)
     + `PUT /files/:id/publish`
     + `PUT /files/:id/unpublish`
-    + `GET /files/:id/data`
+    + `GET /files/:id/data` 
 
 + [x] 11. **New user - welcome email**
   + Update the endpoint `POST /users` endpoint to start a background processing for sending a “Welcome email” to the user:
