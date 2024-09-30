@@ -113,7 +113,7 @@
           + `isPublic`: same as the value received.
           + `parentId`: same as the value received - if not present: 0.
           + `localPath`: for a `type=file|image`, the absolute path to the file save in local.
-        + Return the new file with a status code 201. 
+        + Return the new file with a status code 201.  
 
 + [x] 6. **Get and list file**
   + In the file [`routes/index.js`](routes/index.js), add 2 new endpoints:
