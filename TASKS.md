@@ -108,7 +108,7 @@
         + Store the file in clear (reminder: `data` contains the Base64 of the file) in this local path.
         + Add the new file document in the collection `files` with these attributes:
           + `userId`: ID of the owner document (owner from the authentication).
-          + `name`: same as the value received.
+          + `name`: same as the value received. 
           + `type`: same as the value received.
           + `isPublic`: same as the value received.
           + `parentId`: same as the value received - if not present: 0.
