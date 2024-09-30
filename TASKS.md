@@ -77,7 +77,7 @@
   + `GET /users/me` should retrieve the user base on the token used:
     + Retrieve the user based on the token:
       + If not found, return an error `Unauthorized` with a status code 401.
-      + Otherwise, return the user object (`email` and `id` only).
+      + Otherwise, return the user object (`email` and `id` only). 
 
 + [x] 5. **First file**
   + In the file routes/index.js, add a new endpoint:
