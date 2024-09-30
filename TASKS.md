@@ -182,7 +182,7 @@
       + If no document is found in DB based on the `fileId` and `userId`, raise an error `File not found`.
       + By using the module `image-thumbnail`, generate 3 thumbnails with `width` = 500, 250 and 100 - store each result on the same location of the original file by appending `_<width size>`.
   + Update the endpoint `GET /files/:id/data` to accept a query parameter `size`:
-    + `size` can be `500`, `250` or `100`.
+    + `size` can be `500`, `250` or `100`. 
     + Based on `size`, return the correct local file.
     + If the local file doesn't exist, return an error `Not found` with a status code 404.
 
