@@ -116,7 +116,7 @@
         + Return the new file with a status code 201.  
 
 + [x] 6. **Get and list file**
-  + In the file [`routes/index.js`](routes/index.js), add 2 new endpoints:
+  + In the file [`routes/index.js`](routes/index.js), add 2 new endpoints: 
     + `GET /files/:id` => `FilesController.getShow`. 
     + `GET /files` => `FilesController.getIndex`.
   + In the file [`controllers/FilesController.js`](controllers/FilesController.js), add the 2 new endpoints:
