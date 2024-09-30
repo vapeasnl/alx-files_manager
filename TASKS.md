@@ -190,7 +190,7 @@
   + Of course, a strong and stable project can not be good without tests.
   + Create tests for `redisClient` and `dbClient`.
   + Create tests for each endpoint:
-    + `GET /status`
+    + `GET /status` 
     + `GET /stats`
     + `POST /users`
     + `GET /connect`
