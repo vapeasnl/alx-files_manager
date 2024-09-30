@@ -195,7 +195,7 @@
     + `POST /users`
     + `GET /connect`
     + `GET /disconnect`
-    + `GET /users/me`
+    + `GET /users/me` 
     + `POST /files`
     + `GET /files/:id`
     + `GET /files` (don't forget the pagination)
