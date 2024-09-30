@@ -135,7 +135,7 @@
         + Pagination:
           + Each page should be 20 items max.
           + `page` query parameter starts at 0 for the first page. If equals to 1, it means it's the second page (from the 20th to the 40th), etc…
-          + Pagination can be done directly by the `aggregate` of MongoDB.
+          + Pagination can be done directly by the `aggregate` of MongoDB. 
 
 + [x] 7. **File publish/unpublish**
   + In the file [`routes/index.js`](routes/index.js), add 2 new endpoints:
