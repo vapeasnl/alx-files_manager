@@ -168,7 +168,7 @@
       + If the file is not locally present, return an error `Not found` with a status code 404.
       + Otherwise:
         + By using the module `mime-types`, get the [MIME-type](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types) based on the `name` of the file.
-        + Return the content of the file with the correct MIME-type.
+        + Return the content of the file with the correct MIME-type. 
 
 + [x] 9. **Image Thumbnails**
   + Update the endpoint `POST /files` endpoint to start a background processing for generating thumbnails for a file of type `image`:
